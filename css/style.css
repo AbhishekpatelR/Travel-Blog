@@ -1,0 +1,188 @@
+.heading{
+	text-align: center;
+	background-color: #007BFF;
+	padding: 3px 3px;
+	color: white;
+
+
+}
+header h1{
+	font-size:29px;
+}
+nav {
+	background-color:#2e2c2c !important;
+	padding: 5px 5px !important;
+	z-index: 99999999999 !important;
+}
+
+nav li a{
+color:rgb(255 255 255 / 81%) !important;
+font-size: 14px !important;
+}
+
+.active {
+	color: white !important;
+}
+
+.footer{
+	text-align: center;
+	background-color: #007BFF;
+	color: white;
+	padding: 5px 5px;
+	position: fixed;
+	bottom: 0px;
+		width:100%;
+
+
+}
+.travelplaces{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.tourist{
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+}
+
+img.card-img-top {
+    height: 200px;
+    width: auto !important;
+    object-fit:cover;
+} 
+.card{
+	margin-top:20px;
+
+}
+.carousel{
+	    	margin-top: 95px;
+	    	z-index: 0;
+
+}
+
+.travelplaces {
+    margin-bottom: 70px;
+
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+.card{
+	    min-height: 466px;
+}
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+	 	.card{
+	
+     min-height: 511px;
+	
+}
+}
+
+
+@media screen and (min-width:992px) and (max-width:1198px){
+
+.card{
+	    min-height: 444px;
+}
+
+}
+
+@media screen and (min-width:1401px){
+	.card{
+		    min-height: 400px;
+	}
+}
+
+@media screen and (min-width:1199px) and (max-width:1400px){
+	.card{
+
+		    min-height: 434px;
+	}
+}
+
+.header-top{
+	position: fixed;
+	top:0px;
+	width: 100%;
+	z-index: 1;
+
+}
+.navbar-collapse{
+	justify-content: center;
+}
+
+.navbar-toggler{
+    background-color: #e6dcdc !important;
+        padding: 5px !important;
+
+}
+.navbar-brand{
+	    color: #e0d4d4 !important;
+}
+
+@media screen and (min-width:992px) {
+
+	.navbar-brand{
+	    color: #e0d4d4 !important;
+	    display: none !important;
+}
+
+}
+
+.modal-img img{
+    width: 100%;
+}
+.modal1{
+	    font-size: 13px;
+	       padding-top: 16px;
+}
+.modal2img img{
+	width: 100%;
+}
+.modal2{
+	 font-size: 13px;
+	       padding-top: 16px;
+}
+
+.molal3img img{
+	width: 100%;
+}
+.modal3{
+	font-size: 13px;
+	       padding-top: 16px;
+}
+.modal4img img{
+	width: 100%;
+}
+.modal4{
+	font-size: 13px;
+	       padding-top: 16px;
+}
+
+.modal5img img{
+	width: 100%;
+}
+.modal5{
+	font-size: 13px;
+	       padding-top: 16px;
+}
+
+.modal6img img{
+	width: 100%;
+}
+.modal6{
+	font-size: 13px;
+	       padding-top: 16px;
+}
+
+p.card-text {
+    font-size: 14px;
+}
